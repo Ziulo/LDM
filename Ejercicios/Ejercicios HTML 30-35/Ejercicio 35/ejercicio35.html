@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 35</title>
+</head>
+<body>
+    <h3>Información sobre el producto</h3>
+    <form action="" method="post" enctype="multipart/form-data"></form>
+        <fieldset>
+            <legend>Datos básicos</legend>
+            <label for="name">Nombre</label><br>
+            <input type="text" name="name" id="name"><br><br>
+            <label for="descripcion">Descripción</label><br>
+            <textarea id="descripcion" name="descripcion" cols="40" rows="5"></textarea><br><br>
+            <label for="foto">Foto</label>
+            <input type="file" name="adjunto" id="foto" /><br><br>
+            <input type="checkbox" name="contador" id="contador">
+            <label for="contador">Añadir contador de visitas</label>
+        </fieldset>
+        <fieldset>
+            <legend>Datos ecocómicos</legend>
+            <label for="precio">Precio</label>
+            <input type="text" name="precio" id="precio" size="5">€
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="impuestos">Impuestos</label>
+            <select name="impuestos" id="impuestos">
+                <option value="4">4%</option>
+                <option value="7">7%</option>
+                <option value="16">16%</option>
+                <option value="25">25%</option>
+            </select><br>
+            Promoción <br>
+            <input type="radio" id="none" name="promo" checked="checked"><label for="none" >Ninguno</label><br>
+            <input type="radio" id="free" name="promo"><label for="free">Transporte gratuito</label><br>
+            <input type="radio" id="descuento" name="promo"><label for="descuento">Descuento 5%</label><br>
+            
+
+        </fieldset>
+    </form>
+</body>
+</html>

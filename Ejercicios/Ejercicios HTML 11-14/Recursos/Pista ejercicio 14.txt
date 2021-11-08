@@ -1,0 +1,14 @@
+carpeta
+
+titulo 
+parrafo
+titulo       ^
+parrafo      | 
+enlace --> indice ---->
+             |
+             v
+
+indice apunta a las fotos porque no sabe apuntar a proyectos aun
+
+
+el favicon (una imagen pequeñita) accesible desde cualquier parte.

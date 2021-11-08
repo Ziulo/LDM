@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 32</title>
+</head>
+<body>
+    <h2>Rellena tu CV</h2>
+    <form action="" method="post" enctype="application/x-www-form-urlencoded">
+        <label for="nombre">Nombre</label><br>
+        <input type="text" id="nombre" name="nombre"><br>
+        <label for="apellidos">Apellidos</label><br>
+        <input type="text" id="apellidos" size="50" name="apellidos"><br>
+        <label for="pass">Contraseña</label><br>
+        <input type="password" name="pass" id="pass" name="contraseña"><br>
+        <label for="dni">DNI</label><br>
+        <input type="text" id="dni" maxlength="9" name="dni"><br>
+        Sexo:</br>
+        <input type="radio" id="hombre" name="sexo" value="hombre" checked>
+        <label for="hombre">Hombre</label><br>
+        <input type="radio" id="mujer" name="sexo" value="mujer">
+        <label for="mujer">Mujer</label><br><br>
+        <label for="foto">Incluir mi foto</label>
+        <input type="file" name="adjunto" id="foto" /><br><br>
+        <input type="checkbox" id="boletin" checked name="suscripcion"> <label for="boletin">
+        Suscribirme al boletín de novedades</label><br><br>
+        <input type="submit" value="Guardar cambios">
+        <input type="reset" value="Borrar los datos introducidos">
+
+
+    </form>
+</body>
+</html>

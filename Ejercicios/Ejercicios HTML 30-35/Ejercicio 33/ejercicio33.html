@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 33</title>
+</head>
+<body>
+    <h2>Formulario estructurado</h2>
+    <form action="maneja_formulario.php" method="post">
+        <fieldset>
+        <legend>Datos personales</legend>
+        <label for="nombre">Nombre</label>  <br/>
+        <input type="text" name="nombre" value="" id="nombre" />
+        <br/>
+        <label for="apellidos">Apellidos</label><br/>
+        <input type="text" name="apellidos" value="" id="apellidos" />
+        <br/>
+        <label for="dni"> DNI</label> <br/>
+        <input type="text" name="dni" id="dni" value="" size="10" maxlength="9" />
+        </fieldset>
+        <fieldset>
+        <legend>Datos de conexión</legend>
+        <label for="code">Nombre de usuario</label><br/>
+        <input type="text" name="code" value="" id="code" maxlength="10" />
+        <br/>
+        <label for="pass">Contraseña</label><br/>
+        <input type="password" name="password" id="pass" value="" maxlength="10" />
+        <br/>
+        <label for="pass2">Repite la contraseña</label><br/>
+        <input type="password" name="password2" value="" id="pass2" maxlength="10" />
+        </fieldset>
+        </form>
+    
+</body>
+</html>
